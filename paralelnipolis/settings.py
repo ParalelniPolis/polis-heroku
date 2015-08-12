@@ -72,7 +72,6 @@ WSGI_APPLICATION = 'paralelnipolis.wsgi.application'
 if os.environ.get('PRODUCTION'):
     DEBUG = False
 
-
     SECRET_KEY = os.environ.get('SECRET_KEY')
 
     # Database
